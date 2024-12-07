@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.navbar-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+    margin-right: 50px;
+}
+.navbar-links a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar-links a:hover
+{
+    color: red;
+
+}
+.dropdown-menu a 
+{
+    color: black;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.intro h1{
+    font-size: 50px;
+}
+.intro img{
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.col-md-6 h2{
+    font-weight: 500;
+    font-size: 50px;
+}
+.col-md-6 h1{
+    font-size: 80px;
+}
